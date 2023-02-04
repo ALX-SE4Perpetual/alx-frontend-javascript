@@ -16,3 +16,12 @@ const teacher3: Teacher = {
   };
   
   console.log(teacher3);
+
+  function printTeacher(firstName: string, lastName: string) {
+    return `${firstName[0]}. ${lastName}`
+  }
+
+  interface printTeacherFunction {
+    firstName: string,
+    lastName: string
+  }
